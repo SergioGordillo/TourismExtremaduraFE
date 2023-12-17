@@ -1,0 +1,39 @@
+body, * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  margin-right: 50px;
+  font-size: 30px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin-right: 100px;
+}
+
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+}
+
+.nav-functions {
+  display: flex;
+}
+
+.nav-user {
+  display: flex;
+}
